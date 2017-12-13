@@ -14,6 +14,7 @@
 		CFAE6ABB1FE149E600B46926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAE6AB91FE149E600B46926 /* LaunchScreen.storyboard */; };
 		CFAE6AC61FE149E600B46926 /* ViewControllerDeallocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE6AC51FE149E600B46926 /* ViewControllerDeallocationTests.swift */; };
 		CFAE6AD11FE149E600B46926 /* ViewControllerDeallocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE6AD01FE149E600B46926 /* ViewControllerDeallocationUITests.swift */; };
+		CFAE6AE01FE14A0B00B46926 /* UIViewController+DeallocationCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAE6ADF1FE14A0B00B46926 /* UIViewController+DeallocationCheck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CFAE6ACC1FE149E600B46926 /* ViewControllerDeallocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerDeallocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFAE6AD01FE149E600B46926 /* ViewControllerDeallocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDeallocationUITests.swift; sourceTree = "<group>"; };
 		CFAE6AD21FE149E600B46926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFAE6ADF1FE14A0B00B46926 /* UIViewController+DeallocationCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DeallocationCheck.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				CFAE6AB01FE149E600B46926 /* AppDelegate.swift */,
+				CFAE6ADF1FE14A0B00B46926 /* UIViewController+DeallocationCheck.swift */,
 				CFAE6AB21FE149E600B46926 /* ViewController.swift */,
 				CFAE6AB41FE149E600B46926 /* Main.storyboard */,
 				CFAE6AB71FE149E600B46926 /* Assets.xcassets */,
@@ -261,6 +264,7 @@
 			files = (
 				CFAE6AB31FE149E600B46926 /* ViewController.swift in Sources */,
 				CFAE6AB11FE149E600B46926 /* AppDelegate.swift in Sources */,
+				CFAE6AE01FE14A0B00B46926 /* UIViewController+DeallocationCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV7AQ8ED57;
 				INFOPLIST_FILE = ViewControllerDeallocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.colecu.ViewControllerDeallocation;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV7AQ8ED57;
 				INFOPLIST_FILE = ViewControllerDeallocation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.colecu.ViewControllerDeallocation;
